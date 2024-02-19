@@ -18,13 +18,13 @@ document.getElementById('buttons-container').addEventListener('click', function 
         buttons.setAttribute('class', 'hidden');
         const textTransform = document.getElementById('heading');
         textTransform.innerText = "Sorry You are over qualified!!!"
-        const audio = new Audio("../src/audio/ahaha.mp3")
+        const audio = new Audio("src/audio/ahaha.mp3")
         audio.loop = true;
         audio.play();
     }
 });
 
 function playAudio() {
-    const audio = new Audio("../src/audio/mouseClick.mp3")
+    const audio = new Audio("src/audio/mouseClick.mp3")
     audio.play();
 }
