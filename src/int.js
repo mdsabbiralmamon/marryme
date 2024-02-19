@@ -12,7 +12,6 @@ document.getElementById('buttons-container').addEventListener('click', function 
         };
     }
     else {
-        console.log('yes Clicked');
         const gifLocation = document.querySelector('.container img');
         gifLocation.src = 'src/images/peach-goma-love.gif';
         const buttons = document.querySelector('.buttons');
